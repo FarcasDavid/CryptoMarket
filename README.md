@@ -11,6 +11,6 @@ Update Animation: When prices are updated, a smooth animation is triggered to hi
 Local Data Storage: All price changes and historical data are saved using Realm, allowing you to access this data even when offline.
 
 ## Technologies Used
-UIKit: Core UI development framework for the app.
+UIKit: Core UI development framework for the app.\n
 CryptoAPI: Local API for fetching real-time cryptocurrency data.
 Realm: Local database for persistent storage of price data.

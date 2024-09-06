@@ -6,11 +6,17 @@ The app features a table view with each cell displaying the cryptocurrency’s m
 
 ## Features
 Real-time Cryptocurrency Prices: Prices are fetched from a local CryptoAPI and updated continuously in the app.
+
 Visual Representation: Each coin’s data (min, max, current price) is presented in a clean, simple table view.
+
 Update Animation: When prices are updated, a smooth animation is triggered to highlight the changes, making it easy for users to spot updates.
+
 Local Data Storage: All price changes and historical data are saved using Realm, allowing you to access this data even when offline.
 
+
 ## Technologies Used
-UIKit: Core UI development framework for the app.\n
+UIKit: Core UI development framework for the app.
+
 CryptoAPI: Local API for fetching real-time cryptocurrency data.
+
 Realm: Local database for persistent storage of price data.
